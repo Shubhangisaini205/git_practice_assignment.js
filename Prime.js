@@ -1,15 +1,16 @@
-function CheckPrime(Nnumber){
+function CheckPrime(Number){
+ 
  
  let count = 0;
     for ( let i = 1; i <= Number; i++){
-        if ( Nnumber % i == 0){
+        if ( Number % i == 0){
             count++;
          }
      }
     if (count == 2){
-      console.log(number,"Prime");
+      console.log(Number,"Prime");
      }else {
-      console.log(number,"Not Prime");
+      console.log(Number,"Not Prime");
      }
 }
 
