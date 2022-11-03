@@ -1,12 +1,12 @@
 function CheckPrime(N){
  
- let count = 0;
+ let factor = 0;
     for ( let i = 1; i <= N; i++){
         if ( N % i == 0){
-            count++;
+            factor++;
          }
      }
-    if (count != 2){
+    if (factor == 2){
       console.log("Prime");
      }else {
       console.log("Not Prime");
